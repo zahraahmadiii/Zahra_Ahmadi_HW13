@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+  padding: 1rem 3rem; 
+}
+
+.wraper_inputs{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+input{
+    padding: 0.4rem;
+    border: none;
+    outline: none;
+    background-color: rgb(223, 223, 223);
+    border-radius: 5px;
+    width: 20%;
+}
+
+.sub_btn{
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(17, 140, 17);
+    font-size: 0.9rem;
+}
+
+.wraper_todos{
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+.wraper_task , .wraper_doing , .wraper_complet{
+    width: 18vw;
+    height: 75vh;
+    padding: 1rem;
+    border-radius: 5px;   
+}
+
+.wraper_task{
+    background-color: rgb(143, 213, 236);
+}
+
+.task{
+    margin-top: 0.7rem;
+}
+
+.wraper_doing{
+    background-color: rgb(248, 251, 178);
+}
+.wraper_complet{
+    background-color: rgb(170, 227, 170);
+}
+
+.label{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(47, 47, 47);
+    margin-left: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.task{
+    background-color: azure;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.task_row1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.8rem;
+}
+
+.title_task{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.icon_close{
+    color: red;
+}
+
+.descrip_task , .date_start_task , .date_end_task , .status_task{
+    margin-bottom: 0.5rem;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.task_btn{
+    padding: 0.5rem 1rem;
+    background-color: lightblue;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.wraper_taskBtn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+}
+
+i{
+    color: rgb(92, 92, 92);
+}
+
+.switch {
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(129, 129, 129);
+    position: relative;
+  
+  }
+  
+  .flicker {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: 0.3s;
+    box-shadow: inset 4px 4px 4px rgb(255, 255, 255),
+      inset -4px -4px 4px rgb(195 193 198 / 90%);
+  }
+  .moon {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 0 rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    left: 45px;
+  }
+  .dark {
+    background-color: rgb(57, 57, 57);
+    transition: 0.3s;
+  }

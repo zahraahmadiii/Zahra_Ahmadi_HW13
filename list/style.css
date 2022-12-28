@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    height: 100vh;
+    padding-left: 20rem;
+    padding-right: 20rem;
+
+}
+.list{
+    width: 17rem;
+    height: 23rem;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 6px 5px 13px 8px rgb(203, 203, 203);
+    padding: 15px;
+    font-size: 1.5rem;
+   
+}
+li{
+    list-style: none;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+button{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color: rgb(111, 170, 215);
+    border: 2px solid rgb(111, 170, 215) ;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.disappear{
+    display: none;
+}
+.disableBtn{
+    color: rgb(148, 148, 148);
+    border: 2px solid rgb(135, 135, 135) ;
+
+}

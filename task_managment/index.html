@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>taskmanagment</title>
+</head>
+<body>
+    <div class="container">
+        <div class="switch">
+            <div class="flicker"></div>
+            <div class="moon"></div>
+          </div>
+        <section class=" wraper_inputs">
+            <input type="text" class="title input" placeholder="Todo title">
+            <input type="text" class="descrip input" placeholder="Todo description">
+            <input type="date" class="start_data input" placeholder="Start date">
+            <input type="date" class="end_data input" placeholder="End date">
+            <span class="status_task"></span>
+            <button class="sub_btn">sub</button>
+        </section>
+
+        <section class="wraper_todos">
+           
+            <div class="wraper_task">
+                <label class="label label1">Tasks</label>
+                <div class="container_task"></div>
+            </div>
+
+            <div class="wraper_doing">
+                <label class="label label2">Doing</label>
+                <div class="container_doing"></div>
+            </div>
+
+            <div class="wraper_complet">
+                <label class="label label3">Completed</label>
+                <div class="container_complet"></div>
+            </div>
+
+        </section>
+        
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
